@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(194, 228, 243, 0.301);
+}
+h1 {
+  background-color: rgb(147, 198, 228);
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+  border: 1px solid bisque;
+  box-shadow: 3px 3px 2px;
+  color: rgb(6, 94, 94);
+}
