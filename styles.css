@@ -112,14 +112,12 @@ hr {
   justify-content: space-around;
   font-size: 25px;
 }
-
+.fa {
+  color: rgb(31, 44, 82);
+}
 .active {
   color: antiquewhite;
 }
-.fa-bookmark:hover {
-  color: aliceblue;
-}
-
-.fa-user:hover {
+.fa:hover {
   color: aliceblue;
 }
