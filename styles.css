@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background-color: rgba(194, 228, 243, 0.301);
-}
 h1 {
   background-color: rgb(147, 198, 228);
   text-align: center;
@@ -13,4 +10,71 @@ h1 {
   border: 1px solid bisque;
   box-shadow: 3px 3px 2px;
   color: rgb(6, 94, 94);
+  margin-bottom: 40px;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+/**............Start styling sections..........*/
+.question {
+  color: rgb(255, 255, 255);
+  position: relative;
+  background-color: rgba(34, 94, 150, 0.596);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px black;
+  margin-bottom: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tags {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: -50px;
+}
+
+.tags li {
+  background-color: rgb(29, 74, 95);
+  border: 1px solid rgb(6, 184, 255);
+  border-radius: 5px;
+  padding: 6px;
+}
+.tags li:hover {
+  border: 1px solid rgb(63, 219, 240);
+  box-shadow: 1px 2px 3px rgb(12, 221, 248);
+}
+
+/**............End styling sections..........*/
+
+/**............Start styling Buttons..........*/
+button {
+  background-color: rgb(29, 74, 95);
+  border: 1px solid rgb(0, 238, 255);
+  border-radius: 3px;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: rgb(29, 74, 95);
+  border: 1px solid rgb(32, 238, 253);
+}
+hr {
+  width: 20%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgb(253, 253, 253);
+}
+
+.bookmarked {
+  color: rgb(12, 12, 12);
 }
