@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 h1 {
   background-color: rgb(147, 198, 228);
   text-align: center;
@@ -13,11 +14,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-main {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0;
-}
 /**............Start styling sections..........*/
 .question {
   color: rgb(255, 255, 255);
@@ -78,3 +74,27 @@ hr {
 .bookmarked {
   color: rgb(12, 12, 12);
 }
+
+/*....Styling footer....... */
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #2d3a4b67;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.fa {
+  color: rgb(31, 44, 82);
+}
+.active {
+  color: antiquewhite;
+}
+.fa:hover {
+  color: aliceblue;
+}
+
